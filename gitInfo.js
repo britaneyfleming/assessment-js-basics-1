@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a program that tracks changes made to files by creating new versions. It is a version tracking system that allows individuals and teams to track changes to code projects and allows you to view the long histpry of a project."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "A cloud based website that helps developers store, track, and control changes made to their code."
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,6 +26,7 @@
 */
 
 //CODE HERE
+let gitInitDefinition = "Initialize a local repository in this folder."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,7 +35,7 @@
 */
 
 //CODE HERE
-
+let gitCloneDefinition = "Make a copy, or clone, of this repo in another location"
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +43,7 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = "Tell me about this repo."
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,6 +54,8 @@
 */
 
 //CODE HERE
+let gitAddDefinition = "Add files to be tracked."
+let gitAddCode = "git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +67,9 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = "Creates a snapshot of the files you're tracking."
 
+let gitCommitCode = "git commit -m 'commit message'"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +78,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition ="Uploads local repo content to remote repo."
