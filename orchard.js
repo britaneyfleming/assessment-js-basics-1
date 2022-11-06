@@ -148,7 +148,14 @@ console.log(days)
 */
 
 // CODE HERE
+fujiAcres.slice()
+for(let i = 0; i < fujiAcres.slice.length; i++){
+fujiAcres.slice[i] = fujiAcres.slice[i] * 6.5
+}
+console.log(fujiAcres.slice)
 
+galaAcres.slice()
+pinkAcres.slice()
 // let fujiTons = 
 // let galaTons =
 // let pinkTons =
