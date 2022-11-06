@@ -60,7 +60,7 @@ console.log(sum)
 totalAcres = 63
 
 console.log(totalAcres)
-
+//For this problem, I created a for loop using the acres arrays that adds the amount of acres for each apple type to get the total amount of acres picked during the week.
 
 
 
@@ -80,6 +80,9 @@ console.log(totalAcres)
 
 let averageDailyAcres = totalAcres /= 7 
 console.log(averageDailyAcres)
+
+//For this problem, I created a variable for 'averageDailyAcres' and made it equal to the totalAcres divided by the number of days that apples were picked (7) and then console logged the answer.
+
 
 
 // PROBLEM 3
@@ -123,6 +126,10 @@ while(acresLeft > 0) {
 }
 console.log(days)
 
+//For this problem, I created a while loop that would calculate how many days it would take to pick the remaining acres based on the current rate of picking. I used days +=1 to make the days go up by one and acresLeft = acresLeft - averageDailyAcres to track the amount left over until it reached 0.
+
+
+
 // PROBLEM 4
 
 /*
@@ -156,6 +163,9 @@ console.log(fujiAcres.slice)
 
 galaAcres.slice()
 pinkAcres.slice()
+
+//I worked on this problem for a while and am still a bit confused on exactly how to do it. For what I have, I attempted to use the slice method to get a copy of the acres arrays. I then attempted to create a for loop that would multiply each number in the array by 6.5.
+
 // let fujiTons = 
 // let galaTons =
 // let pinkTons =
